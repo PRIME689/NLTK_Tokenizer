@@ -1,0 +1,53 @@
+The Natural Language Toolkit (NLTK) is a platform used for building programs for text analysis.
+One of the more powerful aspects of the NLTK module is the Part of Speech tagging.
+
+
+some quick vocabulary:
+Corpus : Body of text, singular. Corpora is the plural of this.
+Lexicon : Words and their meanings.
+Token : Each “entity” that is a part of whatever was split up based on rules.
+In corpus linguistics, part-of-speech tagging (POS tagging or PoS tagging or POST), also called grammatical tagging or word-category disambiguation.
+
+
+Basically, the goal of a POS tagger is to assign linguistic (mostly grammatical) information to sub-sentential units.
+Such units are called tokens and, most of the time, correspond to words and symbols (e.g. punctuation).
+
+
+Text may contain stop words like ‘the’, ‘is’, ‘are’. Stop words can be filtered from the text to be processed.
+There is no universal list of stop words in nlp research, however the nltk module contains a list of stop words.
+
+CC coordinating conjunction
+CD cardinal digit
+DT determiner
+EX existential there (like: “there is” … think of it like “there exists”)
+FW foreign word
+IN preposition/subordinating conjunction
+JJ adjective – ‘big’
+JJR adjective, comparative – ‘bigger’
+JJS adjective, superlative – ‘biggest’
+LS list marker 1)
+MD modal – could, will
+NN noun, singular ‘- desk’
+NNS noun plural – ‘desks’
+NNP proper noun, singular – ‘Harrison’
+NNPS proper noun, plural – ‘Americans’
+PDT predeterminer – ‘all the kids’
+POS possessive ending parent’s
+PRP personal pronoun –  I, he, she
+PRP$ possessive pronoun – my, his, hers
+RB adverb – very, silently,
+RBR adverb, comparative – better
+RBS adverb, superlative – best
+RP particle – give up
+TO – to go ‘to’ the store.
+UH interjection – errrrrrrrm
+VB verb, base form – take
+VBD verb, past tense – took
+VBG verb, gerund/present participle – taking
+VBN verb, past participle – taken
+VBP verb, sing. present, non-3d – take
+VBZ verb, 3rd person sing. present – takes
+WDT wh-determiner – which
+WP wh-pronoun – who, what
+WP$ possessive wh-pronoun, eg- whose
+WRB wh-adverb, eg- where, when
